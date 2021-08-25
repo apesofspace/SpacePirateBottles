@@ -516,11 +516,22 @@ input::-webkit-inner-spin-button{
   font-weight:500;
   font-size:1.2rem;
   text-align:center;
-  color:rgba(255, 255, 255, 0.44);
-  margin-bottom:2rem; }
+  color:rgba(255, 255, 255, 0.55); }
 
 @media (min-width: 1024px){
     .form-title{
+      margin-bottom:2rem;
+      font-size:2.4rem; } }
+
+.form-description{
+  font-weight:500;
+  font-size:1rem;
+  text-align:center;
+  color:rgba(255, 255, 255, 0.8);
+  margin-bottom:2rem; }
+
+@media (min-width: 1024px){
+    .form-description{
       margin-bottom:3rem;
       font-size:2.4rem; } }
 
@@ -590,7 +601,7 @@ input::-webkit-inner-spin-button{
 
 .form__input-wrap:before, .form__input-wrap:after{
       position:absolute;
-      content:'';
+      content:"";
       width:100%;
       height:2px;
       background:-webkit-gradient(linear, left bottom, left top, from(rgba(95, 150, 183, 0)), color-stop(50%, rgba(255, 255, 255, 0.28)), to(rgba(95, 150, 183, 0)));
@@ -641,8 +652,8 @@ input::-webkit-inner-spin-button{
     -webkit-box-flex:0;
     -webkit-flex:none;
     flex:none;
-    background:-webkit-gradient(linear, left bottom, left top, from(#1A3D58), to(#2C70A4));
-    background:linear-gradient(0deg, #1A3D58 0%, #2C70A4 100%);
+    background:-webkit-gradient(linear, left bottom, left top, from(#1a3d58), to(#2c70a4));
+    background:linear-gradient(0deg, #1a3d58 0%, #2c70a4 100%);
     width:4.8rem;
     height:100%;
     border:3px solid #193348;
@@ -1194,10 +1205,10 @@ input::-webkit-inner-spin-button{
       background-color:transparent; } }
 
 .follow-wrap.active .discord-link svg{
-    fill:#5662F6; }
+    fill:#5662f6; }
 
 .follow-wrap.active .twitter-link svg{
-    fill:#1DA1F2; }
+    fill:#1da1f2; }
 
 .follow-wrap span{
     margin-right:2rem;
@@ -1223,18 +1234,18 @@ input::-webkit-inner-spin-button{
         fill:rgba(255, 255, 255, 0.4); } }
 
 .follow-wrap .twitter-link{
-    fill:#1DA1F2; }
+    fill:#1da1f2; }
 
 @media (min-width: 1024px){
       .follow-wrap .twitter-link:hover svg{
-        fill:#1DA1F2; } }
+        fill:#1da1f2; } }
 
 .follow-wrap .discord-link{
-    fill:#5662F6; }
+    fill:#5662f6; }
 
 @media (min-width: 1024px){
       .follow-wrap .discord-link:hover svg{
-        fill:#5662F6; } }
+        fill:#5662f6; } }
 
 .follow-wrap ul{
     display:-webkit-box;
@@ -1391,6 +1402,19 @@ input::-webkit-inner-spin-button{
 @media (min-width: 768px){
     .desk{
       display:block; } }
+
+.claim-form{
+  margin-top:30px;
+  color:white; }
+
+.claim-heading{
+  font-size:24px;
+  color:white; }
+
+.claim-description{
+  font-size:14px;
+  text-align:center;
+  color:white; }
 
 .team-section{
   padding:4rem 0;
